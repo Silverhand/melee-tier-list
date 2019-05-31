@@ -39,7 +39,6 @@ for(i = 0; i < weightChars.length; i++) {
 }
 
 function formula(r) {
-    //Formula is JUST a score for how likely you are to run into someone based on rank
     var x = 0;
 
     x = Math.exp((-0.25*r) + 5.05);
